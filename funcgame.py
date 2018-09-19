@@ -11,6 +11,8 @@
 #       The main problem solved is that it was long, repetitive and not an easy read. The functions
 #   help to make it way more readable and simple.
 
+#
+
 def printtravel(z, t):
     if z == (1, 1):
         t = tile1
@@ -36,7 +38,7 @@ def way():
     way = way.lower()
     return way
 def notvalid():
-    print("Not a valid direction")
+    print("Not a valid direction!")
 def move(a, b, c):
     if a == "n":
         b = b
@@ -76,15 +78,15 @@ y = 1
 pos = (x, y)
 valid = ""
 
-tile1 = "(N)orth"
-tile2 = "(N)orth or (E)ast or (S)outh"
-tile3 = "(E)ast or (S)outh"
-tile4 = "(N)orth"
-tile5 = "(S)outh or (W)est"
-tile6 = "(E)ast or (W)est"
+tile1 = "(N)orth."
+tile2 = "(N)orth or (E)ast or (S)outh."
+tile3 = "(E)ast or (S)outh."
+tile4 = "(N)orth."
+tile5 = "(S)outh or (W)est."
+tile6 = "(E)ast or (W)est."
 tile7 = "victory!"
-tile8 = "(N)orth or (S)outh"
-tile9 = "(S)outh or (W)est"
+tile8 = "(N)orth or (S)outh."
+tile9 = "(S)outh or (W)est."
 tile = ""
 
 while pos != (3, 1):
