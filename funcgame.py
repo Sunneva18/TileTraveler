@@ -11,7 +11,7 @@
 #       The main problem solved is that it was long, repetitive and not an easy read. The functions
 #   help to make it way more readable and simple.
 
-#
+#https://github.com/Sunneva18/TileTraveler
 
 def printtravel(z, t):
     if z == (1, 1):
