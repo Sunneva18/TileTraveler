@@ -1,6 +1,7 @@
 """Byrjar í reit 1,1 og færð upp valmöguleika um hvert má fara
 svo er þá tjekkað hvort þú mátt fara í þitt val með if og while
-Lokareitur er 3,1 og prentast þá út "Victory!"""
+Lokareitur er 3,1 og prentast þá út "Victory!
+https://github.com/Sunneva18/TileTraveler"""
 
 tile1 = "(N)orth"
 tile2 = "(N)orth or (E)ast or (S)outh"
@@ -46,7 +47,7 @@ while tile != tile7:
             else:
                 print("Not a valid direction!")
 
-    while x == 1 and y == 3:
+    if x == 1 and y == 3:
         print("You can travel:",tile)
         while True:
             way = input("Direction: ")
